@@ -19,8 +19,24 @@
   border-radius: 22px;
   /* width: 400px; */
 }
-.owl-nav {
-  /* font-size: 50px; */
+.time_element {
+  position: absolute;
+  display: none;
+}
+/* .change {
+  position: relative;
+} */
+/* .six_watch {
+  position: relative;
+} */
+.box {
+  position: relative;
+}
+.box:hover .time_element {
+  position: absolute;
+  display: block;
+  top: 80px;
+  left: 240px;
 }
 .owl-theme .owl-dots .owl-dot span {
   width: 400px;
