@@ -380,6 +380,12 @@ ul {
   justify-content: center;
   flex-direction: column;
 }
+.six_watch_elemetn:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  box-shadow: rgba(15, 235, 81, 0.35) 0px 5px 15px;
+  border-radius: 22px 22px;
+}
 .number {
   display: flex;
   align-items: center;
