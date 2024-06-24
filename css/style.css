@@ -77,7 +77,6 @@ a {
 ul {
   list-style-type: none;
 }
-
 .menu_image {
   width: 25px;
   display: none;
@@ -117,8 +116,6 @@ ul {
   display: flex;
   gap: 184px;
   align-items: center;
-}
-.Discover_text {
 }
 .Discover_text_h1 {
   max-width: 457px;
@@ -406,6 +403,7 @@ ul {
   margin: 0 auto;
   border-radius: 18px;
   margin: 69px auto 0;
+  padding: 12px;
 }
 .best_p {
   font-size: 16px;
@@ -502,6 +500,33 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.dark .nav_dg {
+  background-color: rgb(109, 105, 105, 0.5);
+}
+.dark .section_bg {
+  background-color: var(--whiteColor);
+}
+.dark .Discover_text_h1 {
+  color: var(--blackColor);
+}
+.dark .Search {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.dark footer {
+  background-color: var(--whiteColor);
+  color: #000;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.dark .about-card {
+  background: var(--whiteColor);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 @media (max-width: 1160px) {
   .box {
